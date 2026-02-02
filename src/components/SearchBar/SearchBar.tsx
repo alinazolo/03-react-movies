@@ -6,11 +6,11 @@ import toast from 'react-hot-toast';
     onSubmit: (topic: string) => void;
 }
 
-export default function SearchBarProps({onSubmit}: SearchBarProps ) {
+export default function SearchBar({onSubmit}: SearchBarProps ) {
 const handleSubmit = (formData: FormData) => {
-    const query = formData.get("query") as string;
+    const query = formData.get("query")?.toString() ?? "";
 
-    if(query === "") {
+    if(query.trim() === "") {
     toast.error("Please enter your search query.")
     return;
     }
