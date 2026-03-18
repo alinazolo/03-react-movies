@@ -2,7 +2,7 @@
 
 Developed a React-based web application that allows users to search for movies by keywords using a REST API
 
-<b>Tech stack:</b> React, TypeScript, Vite, HTML5 / CSS3, React Router, REST API, 
+<b>Tech stack:</b> React, TypeScript, Vite, HTML5 / CSS3, React Router, REST API
 
 ## Project Functionality
 * Search for movies 🔍
